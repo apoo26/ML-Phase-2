@@ -5,9 +5,9 @@ The source code[1] needs to be run as follows:
 "python MLImplementation.py (training file name) (testing file name) (no. of example samples) (sampling rate) (no. of candidate classes)"
 
 where,
-no. of example samples are the no. of samples to be chosen per class
-sampling rate is the rate of choosing the classes to sample
-no. of candidate classes are the classes for prediction
+1. no. of example samples are the no. of samples to be chosen per class
+2. sampling rate is the rate of choosing the classes to sample
+3. no. of candidate classes are the classes for prediction
 
 # DATASETS:
 link to the WIKIPEDIA dataset which we used: https://drive.google.com/open?id=1iAVpPOp9GbAkAM88FGEHTkEe4vYbVY-4
