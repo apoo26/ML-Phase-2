@@ -20,12 +20,10 @@ def evaluation(y_true, y_pred):
     maf = f1_score(y_true, y_pred, average='macro')
     logLoss=log_loss(y_true,y_pred)
     meanAbsError=mean_absolute_error(y_true,y_pred)
-    meanSqError=mean_squared_error(y_true,y_pred)
-    print("accuracy achieved was: "+acc)
-    print("F1 score is : " +maf)
-    print("logarithmic loss is : " +logLoss)
-    print("mean Absolute error is : " +meanAbsError)
-    print("Mean Squared Error is : " +meanSqError)
+    print("Accuracy: "+acc)
+    print("F1 score: " +maf)
+    print("Logarithmic Loss is : " +logLoss)
+    print("Mean Absolute Error: " +meanAbsError)
 
 
 def CreateFolder(Dataset, foldername, Num_of_Samples, Sampling, num_candidates):
