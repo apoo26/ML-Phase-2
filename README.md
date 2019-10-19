@@ -9,6 +9,8 @@ where,
 2. sampling rate is the rate of choosing the classes to sample
 3. no. of candidate classes are the classes for prediction
 
+We have analysed the results (acccuracies achieved) obtained by plotting a graph between accuracy and number of candidate classes considered. Code for the same has been attached (Graphs.py).
+
 # DATASETS:
 link to the WIKIPEDIA dataset which we used: https://drive.google.com/open?id=1iAVpPOp9GbAkAM88FGEHTkEe4vYbVY-4
 
